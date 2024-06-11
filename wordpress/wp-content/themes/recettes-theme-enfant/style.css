@@ -1,0 +1,71 @@
+/*
+ Theme Name:   Votre Thème Enfant
+ Template:     twentytwentyone (ou autre thème parent)
+*/
+
+@import url("../twentytwentyone/style.css");
+
+/* Styles personnalisés pour le thème enfant */
+.recettes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.recette {
+    background-color: #f9f9f9;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: calc(33% - 40px);
+    box-sizing: border-box;
+    text-align: center;
+}
+.recette img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+.recette h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+.recette p {
+    font-size: 1em;
+}
+.recette a {
+    text-decoration: none;
+}
+.recette a:hover {
+    color: rgb(23, 167, 81);
+}
+.recette img {
+    width: 200px;
+    height: auto;
+}
+
+.recette-description {
+    font-size: 1em;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.recette-detail {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.recette-detail img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.recette-meta h3 {
+    margin-top: 20px;
+}
